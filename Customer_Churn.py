@@ -47,7 +47,9 @@ classifier = Sequential()
 #Adding input layer and the first hidden layer
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 11))
 
-#Adding the second hidden layer
+#Adding the  hidden layers
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 
 #Adding the output layer
