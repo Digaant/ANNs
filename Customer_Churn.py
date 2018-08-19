@@ -49,7 +49,7 @@ classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', inpu
 
 #Adding the  hidden layers
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 
 
 #Adding the output layer
