@@ -50,13 +50,7 @@ classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', inpu
 #Adding the  hidden layers
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 3, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 5, init = 'uniform', activation = 'relu'))
-classifier.add(Dense(output_dim = 4, init = 'uniform', activation = 'relu'))
+
 
 #Adding the output layer
 classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
